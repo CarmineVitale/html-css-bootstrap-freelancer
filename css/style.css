@@ -1,0 +1,79 @@
+body {
+  color: white;
+}
+
+/* Header */
+.main-header {
+  background: #2c3e50;
+  height: 80px;
+}
+/* Jumbotron */
+.jumbotron {
+  background: #19bc9b;
+  height: 600px;
+}
+.jumbotron img {
+  width: 33%;
+  height: auto;
+}
+.jumbotron i {
+  font-size: 30px;
+}
+.jumbotron h3 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+/* portfolio */
+#portfolio img {
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+#portfolio h2 {
+  color: black;
+  font-size: 50px;
+}
+#portfolio i {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+/* Sezione about */
+#about {
+  background: #19bc9b;
+  height: 500px;
+}
+#about h2 {
+  font-size: 50px;
+}
+#about p {
+  font-size: 20px;
+}
+#about .fa-star {
+  font-size: 30px;
+  margin: 30px 0;
+}
+#about .btn-default {
+  margin-top: 30px;
+  border: 2px solid white;
+  background: #19bc9b;
+  color: white;
+}
+#about .btn-default:hover {
+  background: white;
+  color: black;
+}
+/* Contact me */
+#contatti {
+  color: black;
+}
+/* sezione footer */
+footer {
+  background: #2c3e50;
+  height: 240px;
+}
+footer i {
+  font-size: 20px;
+  padding: 10px;
+  width: 60px;
+}

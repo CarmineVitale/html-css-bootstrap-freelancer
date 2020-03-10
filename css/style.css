@@ -96,6 +96,11 @@ body {
   color: #fff;
   background-color: #1abc9c;
 }
+#contatti i {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
 /* sezione footer */
 footer {
   background: #2c3e50;
@@ -105,4 +110,26 @@ footer i {
   font-size: 20px;
   padding: 10px;
   width: 60px;
+}
+
+
+
+/* Gestione Linee accantao icona stella */
+.white-star:before ,
+.white-star:after {
+  content: '';
+  display: inline-block;
+  width: 20%;
+  height: 4px;
+  vertical-align: middle;
+  background: white;
+}
+
+.b-star:before, .b-star:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  vertical-align: middle;
+  background-color: black;
 }

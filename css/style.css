@@ -9,6 +9,7 @@ body {
 .navbar {
   border: none;
   background-color: #2c3e50;
+  height: auto;
 }
 .navbar-default .navbar-brand {
     color: white;
@@ -127,17 +128,30 @@ body {
   font-size: 30px;
   margin-bottom: 25px;
 }
+
+
 /* sezione footer */
-footer {
-  background: #2c3e50;
+.main-footer {
+  background: #3A546D;
+  padding-top: 70px;
+  padding-bottom: 70px;
 
 }
-footer i {
+.main-footer i {
   font-size: 20px;
   padding: 10px;
   width: 60px;
 }
+.second-footer {
+  background: #2C3E50;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
+}
+.second-footer p {
+  padding-top: 30px;
+  font-size: 25px;
+}
 
 
 /* Gestione Linee accanto icona stella */
